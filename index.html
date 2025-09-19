@@ -322,6 +322,43 @@
 
       <form class="secaoContato-form">
         
+        <p class="secaoContato-form-legend">
+          Oi, tudo bem? Fale com a gente!
+          Preencha seus dados e sua mensagem:
+        </p>
+
+        <div class="contatoCampo contatoCampo--sucesso">
+          <label>nome:</label>
+          <input type="text" class="contatoCampo--validouFoi" value="Andressa oliveira" required>
+        </div>
+        <div class="contatoCampo contatoCampo--erro">
+          <label>Email:</label>
+          <input type="email" class="contatoCampo--validouerro" required>
+          <spam class="contatoCampo-msg--erro">
+            Você quis dizer <a href="#">escola.pr.gov.br</a>
+          </spam>
+        </div>
+<div class="contatoCampo contatoCampo--erro">
+          <label>telefone:</label>
+          <input type="text" class="contatoCampo--validouerro" placeholder="(46)98831-5555">
+          <spam class="contatoCampo-msg--erro"> Faltou o DDD</spam>
+          </spam>
+        </div>
+
+        <div class="contatoCampo">
+        <label>CEP:</label>
+        <input type="text" maxlength="8" placeholder="Exemplo: 85555-000" required>
+      </div>
+
+       <div class="contatoCampo">
+        <label>endereço:</label>
+        <input type="text" class="contatoCampo-CampoDesabilitado" disabled value="Rua Clevelandia">
+      </div>
+
+<div class="contatoCampo">
+        <label>Bairo:</label>
+        <input type="text" class="contatoCampo-CampoDesabilitado" disabled value="Centro"">
+      </div>
       </form>
     </div>
     </section>
