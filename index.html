@@ -24,10 +24,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
   <body>
-    
+   
+    <a href="#conteudoPrincipal" class="pularNavegacao">Pular para conteúdo principal</a>
+
     <header class="cabecalho container">
-      <a href="https://www.google.com&quot; class="cabecalho-logo" title="Home Apeperia">
-        <svg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg&quot; xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+      <a href="https://www.google.com" class="cabecalho-logo" title="Home Apeperia">
+        <svg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <title>Logotipo da Apeperia</title>
 <!--                    <desc>Created using Figma</desc>-->
           <g id="Canvas" transform="translate(-2230 1001)">
@@ -242,52 +244,52 @@
       </ul>
 
       <nav>
-        <ul class="listaDeArtigo-slider">
+        <ul class="listaDeArtigos-slider">
           <li>
-             <a href="#new0" data-sliderItem="0" class="listaDeArtigo-slider-item listaDeArtigos-slider-item-ativo">
-                Noticia 1
-             </a>
+            <a href="#new0" data-sliderItem="0" class="listaDeArtigos-slider-item listaDeArtigos-slider-item-ativo">
+              Notícia 1
+            </a>
+          </li>
+          <li>
+            <a href="#new1" data-sliderItem="1" class="listaDeArtigos-slider-item">
+              Notícia 2
+            </a>
           </li>
 
           <li>
-             <a href="#new1" data-sliderItem="1" class="listaDeArtigo-slider-item listaDeArtigos-slider-item-ativo">
-                Noticia 2
-             </a>
-          </li>
-
-          <li>
-             <a href="#new2" data-sliderItem="2" class="listaDeArtigo-slider-item listaDeArtigos-slider-item-ativo">
-                Noticia 3
-             </a>
+            <a href="#new2" data-sliderItem="2" class="listaDeArtigos-slider-item">
+              Notícia 3
+            </a>
           </li>
         </ul>
       </nav>
-    </section><!--fim de secao Blog-->
+
+    </section><!--fim . secaoBlog-->
 
     <section class="secaoDestaque"><!--Início da secaoDestaque-->
         <div class="container">
           <h2 class="secaoDestaque-titulo tituloPadrao">DESTAQUE</h2>
 
-          <a href="https://www.alura.com.br/artigos/conheca-as-principais-etapas-da-criacao-de-um-logo?srsltid=AfmBOoq2ZBuSrJj1AzWn1-8P0eorw4tFH2t4q-tj4xC-n-V0Zy2uXFwl" class="secaoDestaque-link" aria-label="tituloDestaque1">
+          <a href="https://www.alura.com.br/artigos/conheca-as-principais-etapas-da-criacao-de-um-logo?srsltid=AfmBOoq2ZBuSrJj1AzWn1-8P0eorw4tFH2t4q-tj4xC-n-V0Zy2uXFwl&quot; class="secaoDestaque-link" aria-label="tituloDestaque1">
             <figure class="secaoDestaque-destaque">
-              <img src="aplicativos na medida/src/img/comecando-criar-logotipo.png" class="secaoDestaque-destaque-img" alt="Ferramentas de designer.Ilustração ">
+              <img src="Acessibilidade/src/img/comecando-criar-logotipo.png" class="secaoDestaque-destaque-img" alt="Ferramentas de designer.Ilustração ">
               <figcaption class="secaoDestaques-destaque-titulo" id="tituloDestaque1">
                 Conheça as primeiras etapas na criação de um logotipo
               </figcaption>
             </figure>
           </a>
 
-          <a href="https://www.alura.com.br/conteudo/fotografia-fotografe-usando-celular?srsltid=AfmBOoqb0BTXyGrQUUQb39Cans9pPWUhvSn4agcO_h8fG8zykZRu1Xxz" class="secaoDestaque-link" aria-label="tituloDestaque2">
+          <a href="https://www.alura.com.br/conteudo/fotografia-fotografe-usando-celular?srsltid=AfmBOoqb0BTXyGrQUUQb39Cans9pPWUhvSn4agcO_h8fG8zykZRu1Xxz&quot; class="secaoDestaque-link" aria-label="tituloDestaque2">
             <figure class="secaoDestaque-destaque">
-              <img src="aplicativos na medida/src/img/dicas-fotografia.png" class="secaoDestaque-destaque-img" alt="Moça mostrando câmera para rapaz">
+              <img src="Acessibilidade/src/img/dicas-fotografia.png" class="secaoDestaque-destaque-img" alt="Moça mostrando câmera para rapaz">
               <figcaption class="secaoDestaques-destaque-titulo" id="tituloDestaque2">
                 Veja dicas de como fotografar usando seu celular
               </figcaption>
             </figure>
           </a>
-          <button class="secaoDestaque-form=botao btnPadrao btnPadrao--pequeno" id="abreDialog">
-            Receber destaques por email
-          </button>
+            <button class="secaoDestaques-form-botao btnPadrao btnPadrao--pequeno" id="abreDialog">
+              Receber destaques por email
+            </button>          
         </div>
         <div class="dialogNewsletter" id="dialogNewsletter">
           <div class="dialogNewsletter-body">
@@ -296,74 +298,141 @@
             <h3 class="dialogNewsletter-texto">
               Assine nossa dialogNewsletter para receber notícias técnicas sem spam!
             </h3>
-            <form class="dialogNewsletter-form">
-              <label class="dialogNewsletter-label">
-                Email:
+              <form class="dialogNewsletter-form">
+                <label class="dialogNewsletter-label">
+                  Email:
+                </label>
                 <input type="text" class="dialogNewsletter-campo" placeholder="Digite seu e-mail...">
                 <button class="dialogNewsletter-btn">
                   Assinar dialogNewsletter
                 </button>
                 <button class="dialogNewsletter-fechar">
-                  x
+                  X
                 </button>
-              </label>
-            </form>
+              </form>
           </div>
           <div class="dialogNewsletter-overlay"></div>
         </div><!--fim.dialogNewsletter-->
 
     </section><!--fim.secaoDestaques-->
 
-    <section class="secaoContato">
-    <div class="container">
-      <h2 class="tituloPadrao">
-        CONTATO
-      </h2>
+    <section class="secaoContato"><!--Início da secao Contato-->
+       <div class="container">
+        <h2 class="tituloPadrao">
+          CONTATO
+        </h2>
 
-      <form class="secaoContato-form">
-        
-        <p class="secaoContato-form-legend">
+        <form class="secaoContato-form">
+         
+         <p class="secaoContato-form-legend">
           Oi, tudo bem? Fale com a gente!
           Preencha seus dados e sua mensagem:
-        </p>
+         </p>
 
-        <div class="contatoCampo contatoCampo--sucesso">
-          <label>nome:</label>
-          <input type="text" class="contatoCampo--validouFoi" value="Andressa oliveira" required>
-        </div>
-        <div class="contatoCampo contatoCampo--erro">
+         <div class="contatoCampo contatoCampo--sucesso">
+          <label>Nome:</label>
+          <input type="text" class="contatoCampo--validouFoi" value="Bruna Kwiatkovski" required>
+         </div>
+
+         <div class="contatoCampo contatoCampo--erro">
           <label>Email:</label>
-          <input type="email" class="contatoCampo--validouerro" required>
-          <spam class="contatoCampo-msg--erro">
+          <input type="email" class="contatoCampo--validouErro" required>
+          <span class="contatoCampo-msg contatoCampo-msg--erro">
             Você quis dizer <a href="#">escola.pr.gov.br</a>
-          </spam>
+          </span>
+         </div>
+
+          <div class="contatoCampo contatoCampo--erro">
+          <label>Telefone:</label>
+          <input type="text" class="contatoCampo--validouErro" placeholder="(46 98831-5555)">
+          <span class="contatoCampo-msg contatoCampo-msg--erro"> Faltou o DDD</span>
+          </span>
+         </div>
+
+         <div class="contatoCampo">
+          <label>CEP:</label>
+          <input type="text" maxlength="8" placeholder="Exemplo: 85555-000" required>
+         </div>
+
+
+         <div class="contatoCampo">
+          <label>Endereço:</label>
+          <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Rua Clevelandia">
+         </div>
+
+         <div class="contatoCampo">
+          <label>Bairro:</label>
+          <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Centro">
+         </div>
+
+         <div class="contatoCampo">
+          <label>Cidade:</label>
+          <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Palmas">
+         </div>
+        </form>
+       
+      </div>
+    </section><!--fim .secaoContato-->
+
+    <section class="secaoInstitucional">
+      <div class="container">
+        <h2 class="tituloPadrao">
+          Institucional
+        </h2>
+
+        <div class="secaoInstitucional-coluna">
+          <p>
+            Um pouco mais sobre a Apeperia
+          </p>
+          <address class="secaoInstitucional-endereço">
+            Rua Vergueiro, 3185 <br> Vila Mariana, São Paulo
+          </address>
+          <p class="secaoInstitucional-telefone">
+            (11) 5571-2751 ou <a href="#"> contato#peperia.com</a>
+          </p>
         </div>
-<div class="contatoCampo contatoCampo--erro">
-          <label>telefone:</label>
-          <input type="text" class="contatoCampo--validouerro" placeholder="(46)98831-5555">
-          <spam class="contatoCampo-msg--erro"> Faltou o DDD</spam>
-          </spam>
-        </div>
 
-        <div class="contatoCampo">
-        <label>CEP:</label>
-        <input type="text" maxlength="8" placeholder="Exemplo: 85555-000" required>
+        <video src="img/formacao-java.mp4" class="secaoInstitucional-video">
+        </video>
       </div>
+    </section><!--fim.secaoInstitucional-->
+  </main>
+     <footer class="rodapé">
+      <div class="container">
+          <img src="Acessibilidade/src/img/logo-apeperia.svg" class="rodape-logo" alt="Logotipo apeperia">
+          <ul class="rodape-social">
+            <li>
+              <a href="#" class="rodape-social-link rodape-social-link-facebook">
+                Facebook da Apeperia
+              </a>
+            </li>
 
-       <div class="contatoCampo">
-        <label>endereço:</label>
-        <input type="text" class="contatoCampo-CampoDesabilitado" disabled value="Rua Clevelandia">
+            <li>
+              <a href="#" class="rodape-social-link rodape-social-link-twitter">
+                Twitter da Apeperia
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="rodape-social-link rodape-social-link-instagram">
+                Instagram da Apeperia
+              </a>
+            </li>
+          </ul>
+
+      <nav class="rodape-nav">
+        <ul>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Sobre</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Planos</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Blog</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Destaques</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Institucional</a></li>
+          <li class="rodape-nav-item"><a href="#" class="rodape-nav-link">Contato</a></li>
+        </ul>
+      </nav>    
       </div>
-
-<div class="contatoCampo">
-        <label>Bairo:</label>
-        <input type="text" class="contatoCampo-CampoDesabilitado" disabled value="Centro"">
-      </div>
-      </form>
-    </div>
-    </section>
-
-</main>
-   
+     </footer>
+     <script src="js/carousel.js"></script>
+     <script src="js/dialog.js"></script>
 </body>
 </html>
