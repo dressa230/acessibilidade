@@ -1,0 +1,48 @@
+.listaDeartigos-artigos {
+    text-align: left;
+    padding-bottom: 2em;
+    max-width: 815px;
+    display: inline-block;
+    white-space: normal;
+}
+
+.listaDeartigos {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.listaDeartigos-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: none;
+}
+
+.listaDeartigos-item:not(:target):first-child {
+display: inline-block;
+}
+
+.listaDeartigos-item:target {
+    display: inline-block;
+}
+
+.listaDeartigos-artigos-img {
+    width: 100%;
+    display: block;
+}
+
+/*apenas para diferenciar as imagens*/
+
+.listaDeartigos-item:nth-of-type(2) img {
+    filter: sepia(.7);
+}
+
+.listaDeartigos-item:nth-of-type(3) img {
+    filter: hue-rotate(10deg) saturate(1);
+}
+
+.listaDeartigos-titulo {
+    font-family: montserrat;
+}
+
