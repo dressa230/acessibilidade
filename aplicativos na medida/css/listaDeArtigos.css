@@ -43,6 +43,9 @@ display: inline-block;
 }
 
 .listaDeartigos-titulo {
-    font-family: montserrat;
+    font-family: 'montserrat', sans-serif;
+    margin: .7em 0;
+    font-size: 1.2em;
+    
 }
 
