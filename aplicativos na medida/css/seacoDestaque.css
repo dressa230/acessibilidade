@@ -27,4 +27,27 @@ font-weight: 1;
     border: 1px solid #fff;
     font-size: 1em;
     width: 100;
+    margin: 300px;
+    line-height: 2.5;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: .2s ease-in;
+}
+
+.secaoDestaque-cta.secaoDestaque-cta:houver,
+.secaoDestaque-cta:focus {
+    background: #fff;
+    color: #333;
+}
+
+@media (min-width: 830) {
+    .secaoDesataque {
+background-image: url(../src/img/bg-intro.jpg);
+    }
+
+    .secaoDestaque-titulo {
+font-size: 5vw;
+    }
 }
