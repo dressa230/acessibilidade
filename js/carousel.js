@@ -8,4 +8,9 @@ btns.forEach(function(btn) {
     //remover class 'ativo' dos outros botoes 
     btns.forEach(function(btnRemoveClass) {
         btnRemoveClass.classList.remove('listaDeArtigos-slider-item-ativo')
-    }
+    })
+})
+
+this.classList.add('listaDeArtigos-slide-item--ativo')
+    })
+})
